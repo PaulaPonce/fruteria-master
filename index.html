@@ -3,23 +3,41 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Frutas Master</title>
+		<!-- Favicon -->
+		<link rel="icon"
+	      type="image/ico"
+	      href="assets/img/favicon.ico">
+		<!-- FontAwesome -->
+		<script src="https://use.fontawesome.com/b432f04897.js"></script>
+		<!-- Styles -->
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	</head>
 	<body>
-		<h1>Lista de Frutas</h1>	
-		<p><b>Frutas Master</b> es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor.</p>
-		<p>En la actualidad, somos la empresa líder en el servicio de distribución de frutas.</p>
-		<img src="frutas.jpg" heigth="100" width=200"">
-		<h2>Catálogo:</h2>
-		<ol>
-			<li>Manzana</li>
-			<li>Pera</li>
-			<li>Piña</li>
-			<li>Cereza</li>
-			<li>Naranja</li>
-		</ol>
-		<form><input type="text" value="fruta"></form>
-		<button type="button">Agregar</button>
-		<script type="text/javascript">alert("Hola Mundo");</script>
-		<script src="javascript.js"></script>
+		<header id="header">
+			<h1>Lista de Frutas</h1>	
+			<p><b>Frutas Master</b> es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor.</p>
+			<p>En la actualidad, somos la empresa líder en el servicio de distribución de frutas.</p>
+			<img src="assets/img/frutas.jpg">
+		</header>
+		<section id="catalogue">
+			<h2>Catálogo:</h2>
+			<ol id="list">
+				<li>Manzana</li>
+				<li>Pera</li>
+				<li>Piña</li>
+				<li>Cereza</li>
+				<li>Naranja</li>
+			</ol>
+			<form>
+				<input type="text" placeholder="fruta" id="fruit">
+				<button type="button" id="add-fruit">Agregar</button>
+			</form>
+			<div id="alert">
+				<!-- span -->
+			</div>
+		</section>
+
+		<!-- Javascript -->
+		<script type="text/javascript" src="assets/js/javascript.js"></script>
 	</body>
 </html>
