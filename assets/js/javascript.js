@@ -18,7 +18,7 @@ function addFruit(){
 		//append
 		span.appendChild(icon);
 		span.appendChild(spanContent);
-		div.appendChild(span);	
+		div.appendChild(span);
 	}else{
 		//create li element inside ol list
 		var li = document.createElement("li");
